@@ -1,0 +1,67 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,time, mark, audio, video {    margin:0;    padding:0;    border:0;    outline:0;    font-size:100%;    vertical-align:baseline;    background:transparent;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {     display:block;}
+nav ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none;}
+a {margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;}
+* /* change colours to suit your needs */ins {background-color:#ff9;color:#000;text-decoration:none;}
+* /* change colours to suit your needs */mark {background-color:#ff9;color:#000; font-style:italic;font-weight:bold;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom:1px dotted;cursor:help;}
+table {border-collapse:collapse;border-spacing:0;}
+* /* change border colour to suit your needs */hr {display:block;height:1px;border:0;   border-top:1px solid #cccccc;margin:1em 0;padding:0;}
+input, select {vertical-align:middle;}
+/* end css reset */
+
+/* some helper classes */
+
+.clear 								{ clear: both; }
+.clear:after 						{ visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+* html .clear 		        	    { zoom: 1; } /* IE6 */
+*:first-child+html .clear 			{ zoom: 1; } /* IE7 */
+.left								{ float: left; }
+.right								{ float: right; }
+.hide-text 							{ text-indent: -9999px; overflow: hidden; position: relative; }
+
+/* custom global html element selectors */
+
+html								{ -webkit-font-smoothing: antialiased; overflow: auto; }
+body								{ font-family: Helvetica, Arial, sans-serif; }
+img									{ -ms-interpolation-mode: bicubic; }
+td, td img							{ vertical-align: top; }
+b, strong							{ font-weight: bold; }
+p, ul, ol							{ line-height: 1.5em; }
+ul, ol								{ list-style: none; }
+h1, h2, h3							{ font-weight: bold; }
+h1									{ font-size: 54px; margin: .75em 0; }
+h2									{ font-size: 28px; margin: .75em 0; }
+h3									{  }
+
+/* site-specific and page-specific selectors */
+
+#container							{ width: 700px; margin: 32px auto; }
+#info								{ position: absolute; top: 12px; right: 24px; }
+#info p 							{ font-size: 11px; text-align: right; }
+#info #social						{ position: relative; left: 26px; top: 12px; }
+#container #error					{ font-weight: bold; text-align: center; color: #FF0000; }
+#container h1						{ text-align: center; }
+#container h1 a						{ text-decoration: none; color: inherit; }
+#container h2						{ text-align: center; }
+form#lookup							{ text-align: center; margin-bottom: 24px; }
+form#lookup input[type="text"]		{ width: 175px; font-size: 16px; }
+form#lookup input[type="submit"]	{ width: 100px; font-size: 16px; }
+p.tweet								{ text-align: center; font-size: 12px; position: relative; bottom: 20px; }
+p.tweet a							{ text-align: center; }
+li.apocalypse						{ padding: 8px 0; }
+li.apocalypse .date					{ display: block; font-weight: bold; font-size: 18px; }
+li.apocalypse .claimant				{ display: block; }
+li.apocalypse .description			{ display: block; font-size: 12px; }
+
+
